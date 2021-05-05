@@ -1,4 +1,16 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Created new HTML and CSS files
+
+Added description and added relevant keywords
+
+Added title "Rock of Cashel"
+
+
+
+
+
+
+
+
 
 Welcome conorwalsh1,
 
