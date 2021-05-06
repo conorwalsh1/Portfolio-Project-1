@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Open+Sans&display=swap');
+
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+h1 {
+    font-family: Amiri, sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+}
