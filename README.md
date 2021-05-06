@@ -14,6 +14,10 @@ Added three section elements: one for main image, one for history section and on
 
 Added nav links within header element for Home, History, Visit Us and Competition 
 
+Styled navigation links so they were more compatible with the logo. I also played around with different font sizes and letter spacing to see what would suit best.
+
+
+
 
 
 
