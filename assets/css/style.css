@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri&family=Open+Sans&display=swap');
 
+/* Heading and Logo */
+
 
 #logo {
     float: left;
@@ -12,4 +14,9 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: black;
+}
+
+/* Landing Page Image */
+
+
 }

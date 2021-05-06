@@ -6,8 +6,11 @@ Added title "Rock of Cashel"
 
 Added header, section and footer to the body element
 
+Imported Amiri font from Google Fonts as it had a classic looks which I felt fitted well with a website based on a historical site
 
+Applied black font to make it stand out against lighter shade background
 
+Added three section elements: one for main image, one for history section and one for visit us section
 
 
 
