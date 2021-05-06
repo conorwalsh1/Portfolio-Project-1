@@ -18,7 +18,9 @@ Styled navigation links so they were more compatible with the logo. I also playe
 
 Found it difficult to crop the picture to a size that fitted the page but was happy after going through some trial and error with the result
 
-Added the section 'History' which included a consolidated amount of information about the Rock of Cashel. I created a set of paragraphs for the text with line breaks between. I also added the class "history" to edit in css
+Added the section 'History' which included information about the Rock of Cashel. I created a set of paragraphs for the text with line breaks between. I also added the class "history" to edit in css.
+
+I matched the font size of the 'History title with that of the logo and used the same margins.
 
 
 

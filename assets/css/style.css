@@ -62,7 +62,6 @@ h1, h2 {
 /* Landing Page Image */
 
 #landing-image {
-    background-image: url('../images/rsz_3cropped-2560-1600-213745.jpg');
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,15 +77,24 @@ hr {
 }
 
 .history h2 {
-    float: left;
     font-size: 280%;
-    margin-left: 30px;
-    margin-top: 10px;
+    margin-left: 330px;
+    margin-top: 50px;
     margin-right: 100%;
 }
 
 .history p {
-    font-size: 110%;
+    font-size: 125%;
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
+
+#history-image {
+    width: 500px;
+    height: 500px;
+    margin: 58px 30px 30px 30px;
+    
+}
+
+
+
