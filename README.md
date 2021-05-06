@@ -12,6 +12,8 @@ Applied black font to make it stand out against lighter shade background
 
 Added three section elements: one for main image, one for history section and one for visit us section
 
+Added nav links within header element for Home, History, Visit Us and Competition 
+
 
 
 
