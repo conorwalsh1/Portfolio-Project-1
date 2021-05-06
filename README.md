@@ -16,7 +16,7 @@ Added nav links within header element for Home, History, Visit Us and Competitio
 
 Styled navigation links so they were more compatible with the logo. I also played around with different font sizes and letter spacing to see what would suit best.
 
-
+Found it difficult to crop the picture to a size that fitted the page but was happy after going through some trial and error with the result
 
 
 
