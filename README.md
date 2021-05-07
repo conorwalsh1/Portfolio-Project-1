@@ -30,6 +30,8 @@ Placed image between History and Visit Us to divide the flow
 
 Added internal nav link for history nav bar at top of page using information sourced from https://www.computerhope.com/issues/ch000049.htm
 
+Added iframe for Google Maps with the location set to that of 'The Rock of Cashel'
+
 
 
 
