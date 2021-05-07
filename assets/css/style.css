@@ -13,7 +13,6 @@ body {
 
 /* Heading and Logo */
 
-
 #logo {
     float: left;
     font-size: 280%;
@@ -92,7 +91,7 @@ hr {
 #history-image {
     width: 500px;
     height: 500px;
-    margin: 100px 30px 30px 30px;
+    margin: 70px 30px 30px 30px;
     
 }
 
@@ -166,11 +165,38 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin-top: 50px;
+    
 }
 
 #contact-title {
     font-size: 280%;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+#contact-box {
+    vertical-align: top;
+    display: inline-block;
+    width: 33%;
+    border: white .1px solid;
+    
+}
+
+#contact-box h3 {
+    font-size: 200%;
+    text-align: center;
+    color: olive;
+}
+
+#contact-box p {
+    font-size: 125%;
+    text-align: center;
+}
+
+#contact-box li {
+    font-size: 125%;
+    text-align: center;
+}
+
+
