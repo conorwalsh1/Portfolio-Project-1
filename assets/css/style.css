@@ -109,7 +109,7 @@ hr {
 
 .visit-us h2 {
     font-size: 280%;
-    margin-left: 630px;
+    text-align: center;
     margin-top: 50px;
 }
 
@@ -157,4 +157,20 @@ hr {
     list-style: none;
     float: right;
     margin: 15px 290px 0px 0px;
+}
+
+/* Contact */
+
+#contact-image {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+
+#contact-title {
+    font-size: 280%;
+    text-align: center;
+    margin-top: 50px;
 }
