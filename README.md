@@ -32,6 +32,10 @@ Added internal nav link for history nav bar at top of page using information sou
 
 Added iframe for Google Maps with the location set to that of 'The Rock of Cashel'
 
+Added Admission Prices and Opening times beside map
+
+Added font awesome script to add icons 
+
 
 
 

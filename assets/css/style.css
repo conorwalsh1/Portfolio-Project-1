@@ -114,34 +114,34 @@ hr {
 }
 
 #map {
-    width: 600px;
+    width: 700px;
     height: 450px;
     float: left;
-    margin: 50px 0 30px 30px;
+    margin: 50px 0 70px 60px;
 }
 
 .admission {
     font-size: 200%;
     float: right;
-    margin: 35px 360px 0px 0px;
+    margin: 75px 210px 0px 0px;
 }
 
 #admission-list {
     font-size: 125%;
     list-style: none;
     float: right;
-    margin: 15px 430px 0px 0px;
+    margin: 15px 330px 0px 0px;
 }
 
 .opening-times {
     font-size: 200%;
     float: right;
-    margin: 75px 370px 0px 0px;
+    margin: 75px 225px 0px 0px;
 }
 
 #opening-list {
     font-size: 125%;
     list-style: none;
     float: right;
-    margin: 15px 465px 0px 0px;
+    margin: 15px 355px 0px 0px;
 }
