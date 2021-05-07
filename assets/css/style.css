@@ -115,7 +115,7 @@ hr {
 
 #map {
     width: 700px;
-    height: 450px;
+    height: 815px;
     float: left;
     margin: 50px 0 70px 60px;
 }
@@ -144,4 +144,17 @@ hr {
     list-style: none;
     float: right;
     margin: 15px 355px 0px 0px;
+}
+
+.facilities {
+    font-size: 200%;
+    float: right;
+    margin: 75px 350px 0px 0px;
+}
+
+#facility-list {
+    font-size: 125%;
+    list-style: none;
+    float: right;
+    margin: 15px 290px 0px 0px;
 }
