@@ -20,7 +20,17 @@ Found it difficult to crop the picture to a size that fitted the page but was ha
 
 Added the section 'History' which included information about the Rock of Cashel. I created a set of paragraphs for the text with line breaks between. I also added the class "history" to edit in css.
 
-I matched the font size of the 'History title with that of the logo and used the same margins.
+Matched the font size of the 'History' title with that of the logo and used the same margins.
+
+Alligned the picture in the 'history' section to the right and wrapped text around it. I struggled to wrap the text around the picture at first but found relevant information on https://www.uvm.edu/~bnelson/computer/css/wrappingtextaroundimages.html
+
+Created a third section titled Visit Us
+
+Placed image between History and Visit Us to divide the flow
+
+Added internal nav link for history nav bar at top of page using information sourced from https://www.computerhope.com/issues/ch000049.htm
+
+
 
 
 

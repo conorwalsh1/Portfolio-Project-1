@@ -80,7 +80,6 @@ hr {
     font-size: 280%;
     margin-left: 330px;
     margin-top: 50px;
-    margin-right: 100%;
 }
 
 .history p {
@@ -92,9 +91,31 @@ hr {
 #history-image {
     width: 500px;
     height: 500px;
-    margin: 58px 30px 30px 30px;
+    margin: 100px 30px 30px 30px;
     
 }
 
+#banner-image {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 75px;
+}
 
 
+/* Visit Us*/
+
+.visit-us h2 {
+    font-size: 280%;
+    margin-left: 630px;
+    margin-top: 50px;
+}
+
+#map {
+    width: 600px;
+    height: 450px;
+    float: left;
+    margin: 50px 0 300px 30px;
+
+}
