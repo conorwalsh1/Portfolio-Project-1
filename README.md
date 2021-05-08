@@ -44,6 +44,8 @@ Added evening picture of 'Rock of Cashel' to alert coming to end of page
 
 First picture I attempted was too large so I decided to use one that covered width but not the height
 
+Added inline block element after reading back over lesson on block elements
+
 
 
 

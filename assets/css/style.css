@@ -180,7 +180,7 @@ hr {
     display: inline-block;
     width: 33%;
     border: white .1px solid;
-    
+    margin-bottom: 30px;
 }
 
 #contact-box h3 {
@@ -197,6 +197,7 @@ hr {
 #contact-box li {
     font-size: 125%;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 
