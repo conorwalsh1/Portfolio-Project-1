@@ -78,7 +78,7 @@ hr {
 
 .history h2 {
     font-size: 280%;
-    margin-left: 330px;
+    text-align: center;
     margin-top: 50px;
 }
 
@@ -186,7 +186,7 @@ hr {
 #contact-box h3 {
     font-size: 200%;
     text-align: center;
-    color: olive;
+    color: rgb(47, 82, 56);
 }
 
 #contact-box p {
@@ -198,6 +198,47 @@ hr {
     font-size: 125%;
     text-align: center;
     margin-bottom: 10px;
+    list-style: none;
 }
+
+/* Footer */
+
+footer {
+    height: 125px;
+}
+
+.social-networks {
+    text-align: center;
+    word-spacing: 160px;
+    margin-top: 45px;
+    margin-bottom: 450px;
+}
+
+.social-networks > li {
+    display: inline-block;
+}
+
+.social-networks i {
+    font-size: 240%;
+    margin: 1%;
+    padding: 5%;
+}
+
+#facebook {
+    color: rgb(66,103,178);
+}
+
+#instagram {
+    color: rgb(245,96,64);
+}
+
+#twitter {
+    color: rgb(29,161,242);
+}
+
+#youtube {
+    color: rgb(255,0,0);
+}
+
 
 

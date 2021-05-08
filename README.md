@@ -46,6 +46,8 @@ First picture I attempted was too large so I decided to use one that covered wid
 
 Added inline block element after reading back over lesson on block elements
 
+Added social media icons in footer. I acquired accurate colors using https://brandpalettes.com/
+
 
 
 
