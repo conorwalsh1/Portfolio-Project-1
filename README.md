@@ -48,6 +48,8 @@ Added inline block element after reading back over lesson on block elements
 
 Added social media icons in footer. I acquired accurate colors using https://brandpalettes.com/
 
+Put the banner image above 'Visit Us' into its' own section as I wanted tp put a hover text overlay css style over it
+
 
 
 
