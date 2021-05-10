@@ -1,3 +1,5 @@
+I wanted to build a website for a tourist attraction in my local town, 'The Rock of Cashel. The website is to target both tourists and locals. To achieve this, I aimed to lay out the website in a clear and concise way. As most visitors to the 'Rock of Cashel' would be tourists from out of town, I prioritised the History section first with a brief but thorough description of the rocks' past which also includes an image of the rock from oldern times, then a Visit Us section which includes an iframe of Google Maps with admission fees, opening times and facilities available on site. At the bottom of the page I included all relevant contact information with relevant social media links included in the footer. I added two divider images, one under the History section of a tapestry and one under the Visit Us section. I added a hover text overlay effect to the image of the tapestry to give the site visitor some further context as I felt an impressive picture commanded such. The image of the rock under the Visit Us section is taken at sunset which I felt was relevant as the visitor also approaches the end of the web page. The color scheme in both divider images are cohesive and compliment eachother, whilst the landing page image is an impressive picture of the rock with the predominantly grey and green offering a striking effect. The competition page is pitched as a local photo competition for pictures of the rock. I added this to the end of the navigation bar as locals would make up a significantly less amount of visitors on the website. I also wanted to keep the main landing page kept exclusively for easily digestable information on the rock itself.
+
 Created new HTML and CSS files
 
 Added description and added relevant keywords
@@ -48,7 +50,11 @@ Added inline block element after reading back over lesson on block elements
 
 Added social media icons in footer. I acquired accurate colors using https://brandpalettes.com/
 
-Put the banner image above 'Visit Us' into its' own section as I wanted tp put a hover text overlay css style over it
+Put the banner image above 'Visit Us' into it's own section as I wanted tp put a hover text overlay css style over it
+
+Followed tutorial here https://www.youtube.com/watch?v=exb2ab72Xhs to acheive hover transition effect over tapestry image
+
+
 
 
 

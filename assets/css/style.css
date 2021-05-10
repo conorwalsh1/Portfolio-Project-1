@@ -27,7 +27,6 @@ h1, h2, h3 {
     color: #3f3f3f;
 }
 
-
 /* Navigation Links */
 
 #menu {
@@ -85,20 +84,21 @@ hr {
 .history p {
     font-size: 125%;
     margin-left: 30px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #history-image {
     width: 500px;
     height: 500px;
-    margin: 70px 30px 30px 30px;
+    margin: 30px 30px 30px 30px;
     
 }
 
 /* Banner Image */
 
 .banner-image {
+    margin-top: 30px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,10 +112,11 @@ hr {
 
 .banner-overlay {
     position: absolute;
+    margin-top: 66.5px;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 360px;
     background: rgba(0, 0, 0, 0.6);
     color: #ffffff;
     font-family: Amiri, sans-serif;
@@ -277,6 +278,22 @@ footer {
 
 #youtube {
     color: rgb(255,0,0);
+}
+
+/* Competition */
+
+#winter-image {
+    width: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#competition-title {
+    font-size: 280%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 
