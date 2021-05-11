@@ -92,13 +92,14 @@ hr {
     width: 500px;
     height: 500px;
     margin: 30px 30px 30px 30px;
+    float: right;
     
 }
 
 /* Banner Image */
 
 .banner-image {
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,14 +147,14 @@ hr {
 
 /* Visit Us*/
 
-.visit-us h2 {
+#visit-us {
     font-size: 280%;
     text-align: center;
     margin-top: 50px;
 }
 
 #map {
-    width: 700px;
+    width: 50%;
     height: 815px;
     float: left;
     margin: 50px 0 70px 60px;
@@ -169,7 +170,7 @@ hr {
     font-size: 125%;
     list-style: none;
     float: right;
-    margin: 15px 330px 0px 0px;
+    margin: 15px 334px 0px 0px;
 }
 
 .opening-times {
@@ -182,20 +183,20 @@ hr {
     font-size: 125%;
     list-style: none;
     float: right;
-    margin: 15px 355px 0px 0px;
+    margin: 15px 366px 0px 0px;
 }
 
 .facilities {
     font-size: 200%;
     float: right;
-    margin: 75px 350px 0px 0px;
+    margin: 75px 361px 0px 0px;
 }
 
 #facility-list {
     font-size: 125%;
     list-style: none;
     float: right;
-    margin: 15px 290px 0px 0px;
+    margin: 15px 306px 0px 0px;
 }
 
 /* Contact */
