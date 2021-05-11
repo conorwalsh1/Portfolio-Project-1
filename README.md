@@ -56,7 +56,7 @@ Followed tutorial here https://www.youtube.com/watch?v=exb2ab72Xhs to acheive ho
 
 After spending a bit of time acheieving the desired effect, I decided it was taking too much time when I started to adjust the layout for different screen sizes so instead I opted to add text directly to image and reupload.
 
-
+I alligned the contact info verically as opposed to horizontally to improve display clarity on smaller screens
 
 
 
