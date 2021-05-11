@@ -104,46 +104,26 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.banner-class {
     position: relative;
-    width: 100%;
-}
-
-.banner-overlay {
-    position: absolute;
-    margin-top: 66.5px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 360px;
-    background: rgba(0, 0, 0, 0.6);
-    color: #ffffff;
-    font-family: Amiri, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25s;
-}
-
-.banner-overlay:hover {
-    opacity: 1;
 }
 
 .banner-title {
-    font-size: 50px;
-
+    font-family: Amiri, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    margin-top: -80px;
+    color: whitesmoke;
+    margin-left: 1115px;
 }
 
 .banner-description {
+    font-family: Amiri, sans-serif;
     font-size: 30px;
+    position: absolute;
+    margin-top: -50px;
+    color: whitesmoke;
+    margin-left: 1050px;
 }
-
-
-
 
 /* Visit Us*/
 

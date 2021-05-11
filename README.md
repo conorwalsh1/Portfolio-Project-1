@@ -54,6 +54,8 @@ Put the banner image above 'Visit Us' into it's own section as I wanted tp put a
 
 Followed tutorial here https://www.youtube.com/watch?v=exb2ab72Xhs to acheive hover transition effect over tapestry image
 
+After spending a bit of time acheieving the desired effect, I decided it was taking too much time when I started to adjust the layout for different screen sizes so instead I opted for text to remain in corner of image as a descriptor.
+
 
 
 
