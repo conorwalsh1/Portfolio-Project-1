@@ -60,6 +60,8 @@ I alligned the contact info verically as opposed to horizontally to improve disp
 
 Add media queries for each relevant screen size where content morphed out of shape
 
+Followed first part of tutorial using https://www.youtube.com/watch?v=S-JyJCVx_4Y (tip: mute before playing) to figure out how to add fixed nav bar. I tried to follow the video futher as I wanted to create a hamburger icon to shrink the menu when the screen size was reduced but after multiple attempts I had to give up as it was not turning out like the video and was taking up a lot of time.
+
 
 
 
