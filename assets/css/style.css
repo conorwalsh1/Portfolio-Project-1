@@ -107,24 +107,6 @@ hr {
     position: relative;
 }
 
-.banner-title {
-    font-family: Amiri, sans-serif;
-    font-size: 30px;
-    position: absolute;
-    margin-top: -80px;
-    color: whitesmoke;
-    margin-left: 1115px;
-}
-
-.banner-description {
-    font-family: Amiri, sans-serif;
-    font-size: 30px;
-    position: absolute;
-    margin-top: -50px;
-    color: whitesmoke;
-    margin-left: 1050px;
-}
-
 /* Visit Us*/
 
 #visit-us {
