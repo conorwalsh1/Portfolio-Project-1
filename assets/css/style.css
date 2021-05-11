@@ -171,6 +171,10 @@ hr {
     
 }
 
+#contact {
+    display: block;
+}
+
 #contact-title {
     font-size: 280%;
     text-align: center;
@@ -178,31 +182,50 @@ hr {
     margin-bottom: 50px;
 }
 
-#contact-box {
-    vertical-align: top;
-    display: inline-block;
-    width: 33%;
-    border: white .1px solid;
-    margin-bottom: 30px;
-}
-
-#contact-box h3 {
+.phone {
     font-size: 200%;
-    text-align: center;
-    color: rgb(47, 82, 56);
-}
-
-#contact-box p {
-    font-size: 125%;
+    float: none;
     text-align: center;
 }
 
-#contact-box li {
+#phone-list {
     font-size: 125%;
-    text-align: center;
-    margin-bottom: 10px;
     list-style: none;
+    float: none;
+    text-align: center;
+    margin-bottom: 40px;
 }
+
+.address {
+    font-size: 200%;
+    float: none;
+    text-align: center;
+}
+
+#address-list {
+    font-size: 125%;
+    list-style: none;
+    float: none;
+    text-align: center;
+    margin-bottom: 40px
+
+}
+
+.email {
+    font-size: 200%;
+    float: none;
+    text-align: center;
+}
+
+#email-list {
+    font-size: 125%;
+    list-style: none;
+    float: none;
+    text-align: center;
+    margin-bottom: 60px
+}
+
+
 
 /* Footer */
 
@@ -257,6 +280,18 @@ footer {
     text-align: center;
     margin-top: 0px;
     margin-bottom: 50px;
+}
+
+/* Media Queries */
+
+/* Larger to Medium - 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #contact {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 }
 
 
