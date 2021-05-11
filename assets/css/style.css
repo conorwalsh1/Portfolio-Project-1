@@ -43,6 +43,7 @@ nav {
     background-color: white;
 }
 
+
 #menu {
     font-size: 120%;
     letter-spacing: 3px;
@@ -312,6 +313,7 @@ footer {
 }
 
 @media screen and (max-width: 1070px) {
+    
     #logo {
         float: left;
         margin: 10px 0px 10px 30px;
@@ -320,7 +322,7 @@ footer {
     }
 
     #menu {
-        float: left;
+        display: block;
         text-align: left;
         margin-top: -40px;
         margin-left: 30px;
