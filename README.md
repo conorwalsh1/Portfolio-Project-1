@@ -58,6 +58,8 @@ After spending a bit of time acheieving the desired effect, I decided it was tak
 
 I alligned the contact info verically as opposed to horizontally to improve display clarity on smaller screens
 
+Add media queries for each relevant screen size where content morphed out of shape
+
 
 
 
