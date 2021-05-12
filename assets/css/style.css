@@ -297,12 +297,12 @@ footer {
 
 .comp-title {
     font-size: 280%;
-    margin: 70px 30px 10px 30px;
+    margin: 120px 30px 30px 30px;
     font-family: Amiri, sans-serif; 
     text-transform: uppercase;
     letter-spacing: 2px;
     color: black;
-    line-height: 170px;
+    line-height: 50px;
     text-align: center;
 }
 
@@ -314,10 +314,26 @@ footer {
 
 .comp-image {
     text-align: center;
-    margin: 30px 30px 30px 30px;
+    margin: 30px 30px 60px 30px;
+}
+
+#rock-1 {
+    width: 75%;
+}
+
+#rock-2 {
+    width: 75%;
 }
 
 #rock-3 {
+    width: 75%;
+}
+
+#rock-4 {
+    width: 75%;
+}
+
+#rock-5 {
     width: 75%;
 }
 
@@ -504,6 +520,15 @@ footer {
         margin: 1%;
         padding: 5%;
     }
+
+    .comp-title {
+        font-size: 200%;
+    }
+
+    .comp-spring {
+        font-size: 95%;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
