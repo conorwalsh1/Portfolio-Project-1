@@ -66,6 +66,12 @@ I found my fixed nav bar kept disappearing behind images as I scrolled through p
 
 Though I spent a lot of time earlier on trying to find a way to make the burger icon work, I felt it would really help the flow of the site as I had four nav anchors whiich took up a lot of space once screen sizes got smaller, so I followed a tutorial https://www.youtube.com/watch?v=AkK8yHC4TlI and managed to get it working.
 
+I added a photo competition page to highlight some of the impressive imagery of the rock of cashel that is aimed at both tourists and locals. I set it up as a posting page for results of a competition that had just passed with voting left open to members of the public. The total amount of votes is listed, along with competition winner, the winning prize amount and information about the next competition and when to enter by. 
+
+I posted images of the five entries, along with the submitters name, the amount of votes they received and also what percentage went to each contestant. I adjusted the media queries for the page for responsiveness across all screen sizes.
+
+I wanted to have it so when you click on the email in the Contact section it opened a new email with the Rock of Cashel email already named as the recipient, si I followed the tutorial on https://css-tricks.com/all-about-mailto-links/ to achieve.
+
 
 
 

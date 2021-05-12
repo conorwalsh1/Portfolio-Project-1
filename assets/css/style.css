@@ -57,7 +57,6 @@ nav {
     background-color: white;
 }
 
-
 #menu {
     font-size: 120%;
     letter-spacing: 3px;
@@ -80,7 +79,7 @@ nav {
 
 #menu a:hover {
     border-bottom: 1.5px solid #3f3f3f;
-}
+}    
 
 /* Landing Page Image */
 
@@ -379,14 +378,14 @@ footer {
         transition: all .5s;
     }
 
-    #menu li {
+    nav ul li {
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
 
     nav #menu li a {
-        font-size: 20px;
+        font-size: 20px;  
     }
 
     #check:checked ~ #menu {
