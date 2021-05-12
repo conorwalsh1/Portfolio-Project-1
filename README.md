@@ -60,11 +60,11 @@ I alligned the contact info verically as opposed to horizontally to improve disp
 
 Add media queries for each relevant screen size where content morphed out of shape
 
-Followed first part of tutorial using https://www.youtube.com/watch?v=S-JyJCVx_4Y to figure out how to add fixed nav bar. I tried to follow the video futher as I wanted to create a hamburger icon to shrink the menu when the screen size was reduced but after multiple attempts I had to give up as it was not turning out like the video and was taking up a lot of time.
+Followed first part of tutorial using https://www.youtube.com/watch?v=S-JyJCVx_4Y to figure out how to add fixed nav bar. I tried to follow the video futher as I wanted to create a burger icon to shrink the menu when the screen size was reduced but after multiple attempts I had to give up as it was not turning out like the video and was taking up a lot of time.
 
 I found my fixed nav bar kept disappearing behind images as I scrolled through page. Searched online and found https://stackoverflow.com/questions/29451382/navigation-bar-being-hidden-behind-pics which recommended setting z-index to a high figure which solved problem.
 
-
+Though I spent a lot of time earlier on trying to find a way to make the burger icon work, I felt it would really help the flow of the site as I had four nav anchors whiich took up a lot of space once screen sizes got smaller, so I followed a tutorial https://www.youtube.com/watch?v=AkK8yHC4TlI and managed to get it working.
 
 
 

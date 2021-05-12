@@ -12,58 +12,95 @@
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="logo">Rock of Cashel</h1>
-        </a>
         <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fas fa-bars" id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <div id="logo">Rock of Cashel</div>
             <ul id="menu">
                 <li>
                     <a href="competition.html">Competition</a>
                 </li>
                 <li>
-                    <a href="#contact-box">Contact</a>
+                    <a href="#contact-title">Contact</a>
                 </li>
                 <li>
-                    <a href="#map">Visit Us</a>
+                    <a href="index.html">Visit Us</a>
                 </li>
                 <li>
-                    <a href="#history-title">History</a>
+                    <a href="index.html">History</a>
                 </li>
                 <li>
-                    <a href="index.html" class="active">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
             </ul>
         </nav>
-
-    <section>
-        <div>
-            <img id="winter-image" src="assets/images/winter.jpeg" alt="_blank">
-            <h2 id="competition-title">Spring Photo Competition</h2>
-        </div>
-    </section>  
         
-    
     <section>
-         <div>
+        <div class="comp-intro">
+            <h1 class="comp-title">Spring Photo Competition Results</h1>
+            <div class="comp-spring">
+                <p>We would like to thank everyone that has voted in the Spring Photo Competition. We received a total of 3,976 voting entries.<hr></p>
+                <p>Congratulations to <strong>John Ryan</strong> who has won the €250 prize with a grand total of 1,798 votes. A sincere
+                thank you to all that submitted. We will display all entries and voting results below. Please do not forget, entries for
+                the Summer Photo Competition must be submitted by <em>August 31st, 2021</em> with voting commencing September 10th.<hr></p>
+                <p>For any queries, please contact Helen at <strong>rockofcashel@opw.ie</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="comp-image"> 
+        <img id="rock-1" src="assets/images/Rock-1.jpeg" alt="_blank">
+        <p>1st Place - John Ryan (1798 votes)</p>
+    </section>
+
+    <section class="comp-image">
+        <img id="rock-2" src="assets/images/Rock-2.jpeg" alt="_blank">
+        <p>2nd Place - Mary Andrews (964 votes)</p>
+    </section>
+
+    <section class="comp-image">
+        <img id="rock-3" src="assets/images/Rock-3.jpeg" alt="_blank">
+        <p>3rd Place - Denise Lowry (542 votes)</p>
+    </section>
+
+    <section class="comp-image">
+        <img id="rock-4" src="assets/images/Rock-4.jpeg" alt="_blank">
+        <p>4th Place - Matty Devane (484 votes)</p>
+    </section>
+
+    <section class="comp-image">
+        <img id="rock-5" src="assets/images/Rock-5.jpeg" alt="_blank">
+        <p>5th Place - Michael O' Connor (188 votes)</p>
+    </section>
+   
+    <section>
+        <img id="contact-image" src="assets/images/roc1-castle-sunset-cork-attraction.webp" alt="_blank">
+    </section>
+
+    <section id="contact">
+        <div>
             <h2 id="contact-title">Contact</h2>
-            <div id="contact-box">
-                <h3>Phone <i class="fas fa-phone"></i></h3>
-                <p>062 61437</p>
-            </div>
-            <div id="contact-box">
-                <h3>Address <i class="fas fa-map-marker-alt"></i></h3>
-                <ul>
-                    <li>St. Patrick's Rock of Cashel</li>
-                    <li>Cashel</li>
-                    <li>Co. Tipperary</li>
-                    <li>E25 KX44</li>
-                </ul>   
-            </div>
-            <div id="contact-box">
-                <h3>Email <i class="fas fa-envelope"></i></h3>
-                <p>rockofcashel@opw.ie</p>
-            </div>
-        </div>    
+            <div id="contact-list">
+                <h3 class="phone">Phone <i class="fas fa-phone"></i></h3>
+                <ul id="phone-list">
+                    <li>062 61437</li>
+                </ul>
+                <h3 class="address">Address <i class="fas fa-map-marker-alt"></i></h3>
+                <ul id="address-list">
+                    <li>St. Patrick's Rock of Cashel<hr></li>
+                    <li>Cashel<hr></li>
+                    <li>Co. Tipperary<hr></li>
+                    <li>E25 KX44<hr></li>
+                </ul>
+                <h3 class="email">Email <i class="fas fa-envelope"></i></h3>
+                <ul id="email-list">
+                    <li>rockofcashel@opw.ie</li>
+                </ul>
+            </div>   
+        </div> 
     </section>
 
     
