@@ -72,6 +72,16 @@ I posted images of the five entries, along with the submitters name, the amount 
 
 I wanted to have it so when you click on the email in the Contact section it opened a new email with the Rock of Cashel email already named as the recipient, si I followed the tutorial on https://css-tricks.com/all-about-mailto-links/ to achieve.
 
+Add aria label and aria labelledby to all relevant places to improve accessibility throughout the site
+
+I removed any unnecessary spaces to make sure code is clean troughout CSS and HTML
+
+Renamed image files to make them all clearer and removed any capital letters to enable cross platform compatibility 
+
+Removed unnecessary comments
+
+Once I had completed everything I was left unsatisfied after numerous attempts of playing with the code I could not get the burger item to display the drop down nav list vertically. In the video I used to get to that point, the coder used display: block to align the nav links vertically, but it would not work the same on my system. I decided to give it one more attempt to fix it as it was the only part of the project I was left unsatisfied with. I used Chrome Dev Tools to play around with different display attributes and found that 'grid' alligned the nav list vertically, but the spacing was too far apart and it was inverted
+
 
 
 

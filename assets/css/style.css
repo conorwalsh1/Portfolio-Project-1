@@ -365,6 +365,9 @@ footer {
     }
 
     #menu {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -373,12 +376,12 @@ footer {
         left: -100%;
         text-align: center;
         transition: all .5s;
+        line-height: 20px;
     }
 
     nav ul li {
         display: block;
-        margin: 50px 0;
-        line-height: 30px;
+        margin: 0px 0 90px;
     }
 
     nav #menu li a {
