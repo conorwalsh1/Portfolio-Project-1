@@ -174,7 +174,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   When the nav bar is opened through the collapsible burger icon on iPhones and iPad, the links for History, Visit Us and Contact divs will bring the user to the relevant part of the site, however they must close the drop down using the "X" icon on the top right of the page to display the information as requested. The issue does not effect Home or Competition links.
 
--
+-   No errors when HTML and CSS are ran through respective WS3 validators.
 
 ## Deployment
 
@@ -228,170 +228,45 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   [CSS Tricks](https://css-tricks.com/all-about-mailto-links/) : I wanted to have it so when you click on the email in the Contact section it opened a new email with the Rock of Cashel email already named as the recipient, so I followed this tutorial to achieve desired effect.
+
+-   [Stack Overflow](https://stackoverflow.com/questions/29451382/navigation-bar-being-hidden-behind-pics) : I found my fixed nav bar kept disappearing behind images as I scrolled through page. Searched online and found this link which recommended setting z-index to a high figure which solved problem.
+
+-   [YouTube](https://www.youtube.com/watch?v=S-JyJCVx_4Y) : Followed first part of tutorial using the video linked to figure out how to add fixed nav bar. I tried to follow the video futher as I wanted to create a burger icon to shrink the menu when the screen size was reduced but after multiple attempts I had to give up as it was not turning out like the video and was taking up a lot of time.
+
+-   [YouTube](https://www.youtube.com/watch?v=AkK8yHC4TlI) : Though I spent a lot of time earlier on trying to find a way to make the burger icon work, I felt it would really help the flow of the site as I had four nav anchors which took up a lot of space once site was displayed on smaller screen sizes, so I followed this tutorial, persevered and managed to get it working.
+
+-   [YouTube](https://www.youtube.com/watch?v=exb2ab72Xhs) : Followed tutorial here to acheive hover transition effect when mouse placed over tapestry image but later discarded the effect as I found it difficult to maintain effect upon responsive shrinking and felt it was superflous as time went on and I was spending far too much time striving for a relatively unnoticeable effect.
+
+-   [Brand Palettes](https://brandpalettes.com/) : I acquired accurate colors for social media icons from Brand Palettes.
+
+-   [Computer Hope](https://www.computerhope.com/issues/ch000049.htm) : Added internal nav link for history nav bar at top of page using information sourced from link above.
+
+-   [The University of Vermont](https://www.uvm.edu/~bnelson/computer/css/wrappingtextaroundimages.html) : I struggled to wrap the text around the picture in the 'History' section but found relevant information through link above.
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 -   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
+### Problems Overcame
+
+-   As mentioned above, once I had completed everything else on the site I was left unsatisfied after numerous attempts of playing with the code. I could not get the burger item to display the drop down nav list vertically. In the video I mentioned to get to that point, the coder used display: block to align the nav links vertically, but it would not work the same on my system. I decided to give it one more attempt to fix it as it was the only part of the project I was left unsatisfied with. 
+
+    I used Chrome Dev Tools to play around with different display attributes and found that 'grid' alligned the nav list vertically, but the spacing was too far apart and it was inverted. I then tried display flex which seemed to work better. It also gave me options such as flex direction and justify content to play around with and I was able to obtain the desired layout. I then tweaked the line height and list margin until I alligned the list in the desired. I had to walk away from the issue multiple times left frustrated but I was glad to have over come this issue as it really tidies up the flow of the site.
+
 ### Content
 
--   All content was written by the developer.
+-   [Heritage Ireland](https://heritageireland.ie/places-to-visit/rock-of-cashel/) : History paragraph taken from this link.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   Code Institute README.md template.
+
+-   All other content was written by Conor Walsh.
+
 
 ### Media
 
--   All Images were created by the developer.
+-   All Images were taken from [Google Images](https://www.google.com/imghp?hl=EN)
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
-
--   Tutor support at Code Institute for their support.
-
-Created new HTML and CSS files
-
-Added description and added relevant keywords
-
-Added title "Rock of Cashel"
-
-Added header, section and footer to the body element
-
-Imported Amiri font from Google Fonts as it had a classic looks which I felt fitted well with a website based on a historical site
-
-Applied black font to make it stand out against lighter shade background
-
-Added three section elements: one for main image, one for history section and one for visit us section
-
-Added nav links within header element for Home, History, Visit Us and Competition 
-
-Styled navigation links so they were more compatible with the logo. I also played around with different font sizes and letter spacing to see what would suit best.
-
-Found it difficult to crop the picture to a size that fitted the page but was happy after going through some trial and error with the result
-
-Added the section 'History' which included information about the Rock of Cashel. I created a set of paragraphs for the text with line breaks between. I also added the class "history" to edit in css.
-
-Matched the font size of the 'History' title with that of the logo and used the same margins.
-
-Alligned the picture in the 'history' section to the right and wrapped text around it. I struggled to wrap the text around the picture at first but found relevant information on https://www.uvm.edu/~bnelson/computer/css/wrappingtextaroundimages.html
-
-Created a third section titled Visit Us
-
-Placed image between History and Visit Us to divide the flow
-
-Added internal nav link for history nav bar at top of page using information sourced from https://www.computerhope.com/issues/ch000049.htm
-
-Added iframe for Google Maps with the location set to that of 'The Rock of Cashel'
-
-Added Admission Prices and Opening times beside map
-
-Added font awesome script to add icons 
-
-Added list of facilities under opening times, besdie map
-
-Added relevant icons to all Visit us lists
-
-Added evening picture of 'Rock of Cashel' to alert coming to end of page
-
-First picture I attempted was too large so I decided to use one that covered width but not the height
-
-Added inline block element after reading back over lesson on block elements
-
-Added social media icons in footer. I acquired accurate colors using https://brandpalettes.com/
-
-Put the banner image above 'Visit Us' into it's own section as I wanted tp put a hover text overlay css style over it
-
-Followed tutorial here https://www.youtube.com/watch?v=exb2ab72Xhs to acheive hover transition effect over tapestry image
-
-After spending a bit of time acheieving the desired effect, I decided it was taking too much time when I started to adjust the layout for different screen sizes so instead I opted to add text directly to image and reupload.
-
-I alligned the contact info verically as opposed to horizontally to improve display clarity on smaller screens
-
-Add media queries for each relevant screen size where content morphed out of shape
-
-Followed first part of tutorial using https://www.youtube.com/watch?v=S-JyJCVx_4Y to figure out how to add fixed nav bar. I tried to follow the video futher as I wanted to create a burger icon to shrink the menu when the screen size was reduced but after multiple attempts I had to give up as it was not turning out like the video and was taking up a lot of time.
-
-I found my fixed nav bar kept disappearing behind images as I scrolled through page. Searched online and found https://stackoverflow.com/questions/29451382/navigation-bar-being-hidden-behind-pics which recommended setting z-index to a high figure which solved problem.
-
-Though I spent a lot of time earlier on trying to find a way to make the burger icon work, I felt it would really help the flow of the site as I had four nav anchors whiich took up a lot of space once screen sizes got smaller, so I followed a tutorial https://www.youtube.com/watch?v=AkK8yHC4TlI and managed to get it working.
-
-I added a photo competition page to highlight some of the impressive imagery of the rock of cashel that is aimed at both tourists and locals. I set it up as a posting page for results of a competition that had just passed with voting left open to members of the public. The total amount of votes is listed, along with competition winner, the winning prize amount and information about the next competition and when to enter by. 
-
-I posted images of the five entries, along with the submitters name, the amount of votes they received and also what percentage went to each contestant. I adjusted the media queries for the page for responsiveness across all screen sizes.
-
-I wanted to have it so when you click on the email in the Contact section it opened a new email with the Rock of Cashel email already named as the recipient, si I followed the tutorial on https://css-tricks.com/all-about-mailto-links/ to achieve.
-
-Add aria label and aria labelledby to all relevant places to improve accessibility throughout the site
-
-I removed any unnecessary spaces to make sure code is clean troughout CSS and HTML
-
-Renamed image files to make them all clearer and removed any capital letters to enable cross platform compatibility 
-
-Removed unnecessary comments
-
-Once I had completed everything I was left unsatisfied after numerous attempts of playing with the code I could not get the burger item to display the drop down nav list vertically. In the video I used to get to that point, the coder used display: block to align the nav links vertically, but it would not work the same on my system. I decided to give it one more attempt to fix it as it was the only part of the project I was left unsatisfied with. I used Chrome Dev Tools to play around with different display attributes and found that 'grid' alligned the nav list vertically, but the spacing was too far apart and it was inverted. I then tried display flex which seemed to work better. It also gave me options such as flex direction and justify content to play around with and I was able to obtain the desired layout. I then tweaked the line height and list margin until I alligned the list in the desired.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Welcome conorwalsh1,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI you can use:
-
-`heroku login -i`
-
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
+-   I would like to thank my mentor Maria Hynes for guiding me along the right path throughout our mentoring sessions. There were times I struggled with getting the way I wanted the code to look out of my head and onto the screen, but she gave me great motivation to persevere and I am very grateful for her assistance. 
