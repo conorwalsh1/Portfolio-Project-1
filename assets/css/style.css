@@ -253,8 +253,6 @@ hr {
     margin-bottom: 70px
 }
 
-
-
 /* Footer */
 
 footer {
@@ -351,7 +349,6 @@ footer {
         height: 610px;
         margin: 0 auto;
     }
-
 }
 
 @media screen and (max-width: 1070px) {
@@ -399,14 +396,6 @@ footer {
     #check:checked ~ label #cancel {
         display: block;
     }
-
-
-    /* #menu {
-        display: block;
-        text-align: left;
-        margin-top: -40px;
-        margin-left: 30px;
-    } */
 }
 
 /* Medium Screen Size - 965 and below */ 
@@ -527,7 +516,6 @@ footer {
     .comp-spring {
         font-size: 95%;
     }
-
 }
 
 @media screen and (max-width: 320px) {
