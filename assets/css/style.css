@@ -447,11 +447,11 @@ footer {
 
     .social-networks {
         text-align: center;
-        word-spacing: 80px;
+        word-spacing: 60px;
     }
 
     .social-networks i {
-        font-size: 240%;
+        font-size: 180%;
         margin: 1%;
         padding: 5%;
     }
@@ -501,6 +501,11 @@ footer {
 }
 
 @media screen and (max-width: 395px) {
+
+    footer {
+        text-align: center;
+    }
+
     .social-networks {
         text-align: center;
         word-spacing: 40px;
