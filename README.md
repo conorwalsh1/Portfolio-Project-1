@@ -1,4 +1,4 @@
-# Rock Of Cashel
+<h1 align="center">ROCK OF CASHEL</h1>
 
 ![Responsive Test](assets/images/ms1-responsive-test.png)
 
