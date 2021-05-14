@@ -14,11 +14,13 @@
 
 I wanted to build a website for a tourist attraction in my local town, 'The Rock of Cashel'. The website is made to target both tourists and locals. To achieve this, I aimed to lay out the website in a clear and concise way. 
 
-As most visitors to the 'Rock of Cashel' would be tourists from out of town, I prioritised a landing page comprised of an impressive photo of the rock with a clear and simple navigation bar at the top alongside the header to steer site browsers in the right direction. The History section appears first with a brief but thorough description of the Rocks' past which also includes an image of the rock from olden times. Following this is a 'Visit Us' section which includes an Google Maps iframe along with admission fees, opening times and facilities available on site. 
+As most visitors to the 'Rock of Cashel' would be tourists from out of town, I prioritised a landing page comprised of an impressive photo of the rock with a clear and simple navigation bar at the top alongside the header to steer site browsers in the right direction. The History section appears first when the user scrolls with a brief but thorough description of the Rocks' past which also includes an image of the rock from olden times. Following this is a 'Visit Us' section which includes an Google Maps iframe along with admission fees, opening times and facilities available on site. 
 
-At the bottom of the page I included all relevant contact information with all social media links included in the footer. I added two divider images, one under the History section of a tapestry and one under the Visit Us section. The image of the rock under the Visit Us section is taken at sunset which I felt was relevant as the visitor also approaches the end of the web page. The color scheme in both divider images are cohesive and they compliment eachother, whilst the landing page image is an impressive picture of the rock with the predominantly grey and green offering a striking effect. 
+At the bottom of the page I included all relevant contact information with all social media links included in the footer. I added two divider images, one under the History section of a tapestry and one under the Visit Us section. The image of the rock under the Visit Us section is taken at sunset which I felt was relevant as the visitor also approaches the end of the web page. The color scheme in both divider images are cohesive and they compliment eachother, whilst the landing page image is an impressive picture of the Rock with the predominantly grey and green offering a striking effect. 
 
-The competition page is pitched as a local photo competition for pictures of the rock. I added this to the end of the navigation bar as locals would make up a significantly less amount of visitors on the website. I also wanted to keep the main landing page kept exclusively for easily digestable information on the rock itself.
+The competition page is pitched as a local photo competition for pictures of the rock. I added this to the end of the navigation bar as locals would make up a significantly less amount of visitors on the website. I also wanted to keep the main landing page kept exclusively for easily digestable information on the Rock itself.
+
+This website was built using a Macbook Pro 13". As it was my first project and subsequent first time creating a website, I was unaware of the benefits of using a second larger monitor to test the website upon deployment. My tutor has advised me on how important a second larger monitor is and I will use one for all my projects going forward.
 
 ## User Experience (UX)
 
@@ -37,7 +39,7 @@ The competition page is pitched as a local photo competition for pictures of the
         3. As a Returning Visitor, I want to find out what the current prcies are for admission and what times is the 'Rock of Cashel' open for visits and tours.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see the results for the photo competition in more detail, including amount of total votes and percentages on what entry garnered the most votes.
+        1. As a Frequent User, I want to check to see the results for the photo competition in more detail, including amount of total votes and percentages on what entry generated the most votes.
         2. As a Frequent User, I want to check to see if there are any changes to admission prices, opening times or facilities.
         3. As a Frequent User, I want to see any new updates the site has posted through their social media links.
 
@@ -47,9 +49,9 @@ The competition page is pitched as a local photo competition for pictures of the
     -   #### Typography
         -   The Amiri font is used for any headers or titles whilst Open Sans is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Amiri and Open Sans are both distinguished and legible fonts, Amiri being extremely effective in titles as it has an elegant charm.
     -   #### Imagery
-        -   Imagery is a key component of my sites make up. The landing image shows the 'Rock of Cashel' in all of it's glory with the contrast of the grey really popping against the green grass. Futher down the site I use two images that cover the page fully in width but only about a third of the page in height. They act as dividing images to break the flow of the page. They both harbour warm colors which trigger a positive emotional reaction in the site browser. I chose the second divider image set above the 'Contact' div specifically as it shows the 'Rock' at sunset, illustrating to the site browser that they are reaching the end of the page. 
+        -   Imagery is a key component of my sites make up. The landing image shows the 'Rock of Cashel' in all of it's glory with the contrast of the grey really popping against the green grass. Futher down the site I use two images that cover the page fully in width but only about a third of the page in height. They act as dividing images to break the flow of the page. They both harbour warm colors which trigger a positive emotional reaction in the site user. I chose the second divider image set above the 'Contact' div specifically as it shows the 'Rock' at sunset, illustrating to the site browser that they are reaching the end of the page. 
         
-            I created a second page on the site under the 'Competition' link in the navigation bar which is made up mostly of imagery. The link will bring the site browser to the results page of a seasonaly run photo competition where members of the public vote on what they believe is the most impressive picture submitted and the prize winner is allocated a sum of €250. Imagery is an important part of the website as these exquisite images show how colossal the 'Rock' is, reminiding locals who have grown accustomed to living in the shadow of the 'Rock' how lucky they are to live so close to it, whilst encouraging tourists from both within and outside Ireland to come visit to see it in all its majesty for themselves.
+            I created a second page on the site under the 'Competition' link in the navigation bar which is made up mostly of imagery. The link will bring the site user to the results page of a seasonaly run photo competition where members of the public vote on what they believe is the most impressive picture submitted and the competition winner is allocated a prize of €250. Imagery is an important part of the website as these exquisite images show how colossal the Rock is, reminiding locals who have grown accustomed to living in the shadow of the Rock how lucky they are to live so close to it, whilst encouraging tourists from both within and outside Ireland to come visit to see it in all its majesty for themselves.
 
 *   ### Wireframes
 
@@ -59,7 +61,7 @@ The competition page is pitched as a local photo competition for pictures of the
 
 -   Responsive on all device sizes. On wider screens the navigation bar lists all different sections side by side, but once screen size is restricted, the nav links shrink into a burger icon which collapses when clicked and shows relevant links.
 
--   The navigation bar and logo within the header are fixed, meaning no matter how far the site browser scrolls throughout the page, they can access any part of the web site at any time.
+-   The navigation bar and logo within the header are fixed, meaning no matter how far the site user scrolls down  throughout the page, they can access any part of the web site at any time.
 
 -   When hovered over, the navigation links display a black underline giving the site browser more clarity.
 
@@ -67,7 +69,7 @@ The competition page is pitched as a local photo competition for pictures of the
 
 -   Icons imported from Font Awesome and applied where necessary (e.g applied to all list items under Visit Us and Contact divs).
 
--   History, Visit Us and Contact sections on the home page. Competition makes up a second seperate page.
+-   History, Visit Us and Contact sections are located on the home page. Competition makes up a second seperate page.
 
 -  Visit Us page hosts relevant admission prices, opening times and facilities on site. It also has Google Maps implemented through iframe, updated in real time.
 
@@ -80,6 +82,16 @@ The competition page is pitched as a local photo competition for pictures of the
 -   Social media links have been colour coded with the exact RGB of each relevant site to ensure familiarty for the site browser.
 
 -   Competition page hosts information about upcoming photo competitions in terms of when to enter by and when voting opens. It also hosts results from the most recent vote, showing the picture entered, who took the picture, how many votes the picture got and what percentage of the total number of votes the respective picture received.
+
+## Features I Would Have Liked To Add
+
+-   An auto scroll gallery of pictures on the landing page.
+
+-   A page for reviews on people who have come to visit the 'Rock'.
+
+-   An online gift shop with merchandise crafted with the 'Rock' in mind.
+
+-   Portal to book group tours with designated parking set up for large coaches and buses.
 
 
 ## Technologies Used
@@ -118,28 +130,26 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is an undistracting Hero Image of the 'Rock'.
-        2. The main points are made immediately with the hero image
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a a minimalist image of the 'Rock'.
+        2. The main points are made immediately with the the nav bar at the top of the page and the landing image below.
         3. The user has two options, click on the nav links or scroll down, both of which will lead to the same place, to learn more about the 'Rock of Cashel'.
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
         1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        2. The nav bar being fixed ensures the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
 
     3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
         1. Once the new visitor has read the History and Visit Us, they will notice the Contact section.
-        2. The user can also scroll directly to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page in the footer, the user is told that alternatively they can contact the organisation on social media which highlights the links to them.
+        2. At the bottom of the Contact Us page in the footer, the user is told that alternatively they can contact the organisation on social media which highlights the links to them.
 
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find information on the most recent photo competition.
 
         1. The competition link will always sit in the fixed header, meaning the site browser need never look far to gain access.
-        2. They will be directed to a page with a description on what event is ongoing, when voting is open and who can they contact for any further information.
+        2. They will be directed to a separate page with a description on what event is ongoing, when voting is open and who can they contact for any further information required.
         3. The pictures entered in the competition will be listed below.
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
@@ -173,6 +183,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 -   When the nav bar is opened through the collapsible burger icon on iPhones and iPad, the links for History, Visit Us and Contact divs will bring the user to the relevant part of the site, however they must close the drop down using the "X" icon on the top right of the page to display the information as requested. The issue does not effect Home or Competition links.
+
+-   When tested on an iPhone 7, the social media links tend to float to the right, even though there is no rule to state such. This problem does not appear when testing responsiveness using Chrome Dev Tools.
 
 -   No errors when HTML and CSS are ran through respective WS3 validators.
 

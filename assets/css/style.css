@@ -503,7 +503,7 @@ footer {
 @media screen and (max-width: 395px) {
 
     footer {
-        text-align: center;
+        float: none;
     }
 
     .social-networks {
